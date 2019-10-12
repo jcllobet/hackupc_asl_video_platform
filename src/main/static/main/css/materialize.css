@@ -733,6 +733,36 @@
 .teal {
   background-color: #009688 !important; }
 
+.schwarz {
+    background-color: #1b1b1b !important; }
+
+.schwarz-text {
+  color: #1b1b1b !important; }
+
+.creamy {
+    background-color: #ffe7d0 !important; }
+
+.creamy-text {
+  color: #ffe7d0 !important; }
+
+.orangy {
+    background-color: #fc6e20 !important; }
+
+.orangy-text {
+  color: #fc6e20 !important; }
+
+.dullgrey {
+    background-color: #323232 !important; }
+
+.dullgrey-text {
+  color: #323232 !important; }
+
+.hellowhity {
+    background-color: #fffbf6 !important; }
+
+.hellowhity-text {
+  color: #fffbf6 !important; }
+
 .teal-text {
   color: #009688 !important; }
 
@@ -1678,7 +1708,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
+  font-family: 'Oswald', sans-serif;
+
   /* 1 */
   font-size: 1em;
   /* 2 */ }
@@ -1728,7 +1759,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Oswald', sans-serif;
+
   /* 1 */
   font-size: 1em;
   /* 2 */ }
@@ -1808,7 +1840,8 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: 'Oswald', sans-serif;
+
   /* 1 */
   font-size: 100%;
   /* 1 */
@@ -2002,7 +2035,9 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+  font-family: 'Oswald', sans-serif;
+
+}
 
 ul:not(.browser-default) {
   padding-left: 0;
@@ -3271,7 +3306,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87); }
   @media only screen and (min-width: 0) {
