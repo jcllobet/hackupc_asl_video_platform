@@ -3,7 +3,6 @@
         <div class="nav-wrapper blue darken-4">
             <a href="/" class="brand-logo " style="padding-left: 20px;">ASL Platform</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="https://imatge.upc.edu/web/members">Community</a></li>
                 {% if user.is_authenticated %}
                      <li><a href="/account">{{user.username|title}}</a></li>
                      <li><a href="/logout">Logout</a></li>
