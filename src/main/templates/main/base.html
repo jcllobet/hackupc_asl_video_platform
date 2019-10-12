@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% load static %}
+        <meta charset="UTF-8">
+        <title>Learning Django (again)</title>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="{% static 'main/css/materialize.css' %}">
+        <!-- Load customized CSS -->
+        <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </head>
+
+
+    <body>
+        {% include 'main/includes/navbar.html' %}
+        {% include 'main/includes/warnings.html' %}
+        <div class="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+        {% include 'main/includes/footer.html' %}
+        <!-- Materialize required JS scripts -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="{% static 'main/js/materialize.min.js' %}"></script>
+    </body>
+</html>

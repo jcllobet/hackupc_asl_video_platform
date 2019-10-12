@@ -1,0 +1,58 @@
+{% extends 'main/base.html' %}
+{% block content %}
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Acessibile, one video at a time</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Are you ready to help us create the biggest dataset on ASL video translation?</h5>
+      </div>
+      <div class="row center">
+        <!--   TODO: Add further logic to redirect user to video platform if already authenticated   -->
+        <a href="/register" id="download-button" class="btn-large waves-effect waves-light orange">Register</a>
+
+        <a href="/login" id="download-button" class="btn-large waves-effect waves-light grey">Login</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Shortening the Gap</h5>
+
+            <p class="light">There are around 466 million people worldwide have disabling hearing loss, with  34 million of these being children. This number is set to increase to up to 900 million by 2050. We are working on a solution to bridge the accesibility gap between this collective and videos, one of today's main formats of sharing information</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User-Centric Design</h5>
+
+            <p class="light">In order to solve this problem, we aim to place the user at the center of our research, developing solutions with them for them. Our goal is not to apply an interesting technology to X problem but to research how we can better solve a problem (Video translation in ASL) given our existing knowledge in a variety of fields. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">Hard problems don't deserve hard solutions. Our aim is to create a simple solution that can be scaled beyond a scientific paper and that is increasingly adding more and more value to its users as its usage increases. Because of this, we aim to remove as many barriers as possible. </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+  </div>
+{% endblock %}
