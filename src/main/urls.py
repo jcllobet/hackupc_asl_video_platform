@@ -23,5 +23,6 @@ urlpatterns = [
     path("register/", views.register, name="register"), #verify the trailing /'s on production....
     path("login", views.login_request, name="login"),
     path("logout", views.logout_request, name="logout"),
-
+    path("form", views.form, name="form"),
+    path("result", views.result, name="result")
 ]
