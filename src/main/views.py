@@ -24,7 +24,7 @@ def form(request):
         return redirect("main:homepage")
 
     uvi = str(uuid1())
-    form_link = "https://theaicademy.typeform.com/to/DFq2iT"+visitor_uuid="+uvi
+    form_link = "https://theaicademy.typeform.com/to/DFq2iT?visitor_uuid="+uvi
 
     response = render(request= request, template_name = "main/form.html",
                           context={"form_link":form_link})
