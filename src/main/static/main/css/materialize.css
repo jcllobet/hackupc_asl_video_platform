@@ -2117,8 +2117,8 @@ i {
 
 img.responsive-img,
 video.responsive-video {
-  max-width: 100%;
-  height: auto; }
+  max-width: 100px;
+  height: 100px; }
 
 .pagination li {
   display: inline-block;
@@ -2528,7 +2528,13 @@ input[type=range] + .thumb {
   user-select: none; }
 
 .circle {
-  border-radius: 50%; }
+  border-radius: 50%; 
+}
+
+.circle-img {
+  border-radius: 50%; 
+  height: 450px;
+}
 
 .center-block {
   display: block;
